@@ -12,4 +12,4 @@ def index(request):
 def book(request):
     book1 = models.Book.objects.get(pk=1)
     # 方法返回request,<页面>,dict类型返回给前端数据
-    return render(request, 'index.html', {'hello': book1.bookName})
+    return render(request, 'index.html', {'book': book1})
