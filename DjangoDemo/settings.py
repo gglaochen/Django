@@ -112,7 +112,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djanoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# 后台管理接口语种，默认en-us,zh_Hans翻译为中文
+from django.utils.translation import gettext_lazy as _
+LANGUAGES = [
+    ('zh-Hans', _('Chinese')),
+]
+
+LANGUAGE_CODE = 'zh-Hans'
 
 TIME_ZONE = 'UTC'
 

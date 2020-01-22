@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="38f4ddcd-72a3-4bbe-9bbc-bc458a1a0654" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoDemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoDemo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,16 +122,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:localMysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:localMysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@78f4e924" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:localMysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7cca784f" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -153,7 +143,7 @@
       <workItem from="1579568378151" duration="14766000" />
       <workItem from="1579591697946" duration="3812000" />
       <workItem from="1579655274680" duration="145000" />
-      <workItem from="1579655435702" duration="12143000" />
+      <workItem from="1579655435702" duration="15557000" />
     </task>
     <task id="LOCAL-00001" summary="* add 简单请求响应&#10;* update 数据库连接驱动为 Mysql">
       <created>1579581883914</created>
@@ -176,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579675425098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="* update 后端可以将class直接返回给前端">
+      <created>1579676900486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579676900486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +184,8 @@
     <MESSAGE value="* add 简单请求响应&#10;* update 数据库连接驱动为 Mysql" />
     <MESSAGE value="* add 第一个简单的请求及响应" />
     <MESSAGE value="* add 通过makemigrations生成对应数据表&#10;* add 通过Model操作数据查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="* add 通过makemigrations生成对应数据表&#10;* add 通过Model操作数据查询" />
+    <MESSAGE value="* update 后端可以将class直接返回给前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="* update 后端可以将class直接返回给前端" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579673429221">
@@ -202,10 +200,10 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="736" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579595122877" />
-    <state x="606" y="134" key="CommitChangelistDialog2" timestamp="1579675421097">
+    <state x="606" y="134" key="CommitChangelistDialog2" timestamp="1579676897629">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state x="606" y="134" key="CommitChangelistDialog2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579675421097" />
+    <state x="606" y="134" key="CommitChangelistDialog2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579676897629" />
     <state x="786" y="281" key="FileChooserDialogImpl" timestamp="1579590584477">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
@@ -214,22 +212,22 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="787" y="407" key="Github.CreatePullRequestDialog/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579590597878" />
-    <state width="1784" height="295" key="GridCell.Tab.0.bottom" timestamp="1579676182658">
+    <state width="1784" height="295" key="GridCell.Tab.0.bottom" timestamp="1579679868820">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.bottom/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579676182658" />
-    <state width="1784" height="295" key="GridCell.Tab.0.center" timestamp="1579676182658">
+    <state width="1784" height="295" key="GridCell.Tab.0.bottom/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579679868820" />
+    <state width="1784" height="295" key="GridCell.Tab.0.center" timestamp="1579679868820">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.center/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579676182658" />
-    <state width="1784" height="295" key="GridCell.Tab.0.left" timestamp="1579676182657">
+    <state width="1784" height="295" key="GridCell.Tab.0.center/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579679868820" />
+    <state width="1784" height="295" key="GridCell.Tab.0.left" timestamp="1579679868820">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.left/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579676182657" />
-    <state width="1784" height="295" key="GridCell.Tab.0.right" timestamp="1579676182658">
+    <state width="1784" height="295" key="GridCell.Tab.0.left/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579679868820" />
+    <state width="1784" height="295" key="GridCell.Tab.0.right" timestamp="1579679868820">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.right/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579676182658" />
+    <state width="1784" height="295" key="GridCell.Tab.0.right/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579679868820" />
     <state width="1784" height="364" key="GridCell.Tab.1.bottom" timestamp="1579672252315">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
@@ -254,10 +252,10 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579673970389" />
-    <state x="598" y="273" key="Vcs.Push.Dialog.v2" timestamp="1579675429853">
+    <state x="598" y="273" key="Vcs.Push.Dialog.v2" timestamp="1579676905243">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state x="598" y="273" key="Vcs.Push.Dialog.v2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579675429853" />
+    <state x="598" y="273" key="Vcs.Push.Dialog.v2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579676905243" />
     <state x="885" y="430" width="343" height="236" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579674472378">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
