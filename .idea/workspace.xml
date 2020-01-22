@@ -2,28 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38f4ddcd-72a3-4bbe-9bbc-bc458a1a0654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/migrations/0002_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoDemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoDemo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoDemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoDemo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localMysql" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localMysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localMysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -49,12 +85,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Python\DjangoDemo\blog2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Python\DjangoDemo\DjangoDemo" />
       <recent name="D:\Projects\Python\DjangoDemo\templates" />
@@ -91,7 +132,22 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:localMysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:localMysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@78f4e924" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:localMysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7cca784f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -112,7 +168,7 @@
       <workItem from="1579568378151" duration="14766000" />
       <workItem from="1579591697946" duration="3812000" />
       <workItem from="1579655274680" duration="145000" />
-      <workItem from="1579655435702" duration="2336000" />
+      <workItem from="1579655435702" duration="10498000" />
     </task>
     <task id="LOCAL-00001" summary="* add 简单请求响应&#10;* update 数据库连接驱动为 Mysql">
       <created>1579581883914</created>
@@ -121,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579581883914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* add 第一个简单的请求及响应">
+      <created>1579658370995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579658370995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,9 +193,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="* add 简单请求响应&#10;* update 数据库连接驱动为 Mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="* add 简单请求响应&#10;* update 数据库连接驱动为 Mysql" />
+    <MESSAGE value="* add 第一个简单的请求及响应" />
+    <option name="LAST_COMMIT_MESSAGE" value="* add 第一个简单的请求及响应" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="598" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579673429221">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="598" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579673429221" />
     <state x="741" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579578370002">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
@@ -141,10 +209,10 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="736" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579595122877" />
-    <state x="606" y="134" key="CommitChangelistDialog2" timestamp="1579581880960">
+    <state x="606" y="134" key="CommitChangelistDialog2" timestamp="1579658367596">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state x="606" y="134" key="CommitChangelistDialog2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579581880960" />
+    <state x="606" y="134" key="CommitChangelistDialog2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579658367596" />
     <state x="786" y="281" key="FileChooserDialogImpl" timestamp="1579590584477">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
@@ -153,42 +221,54 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="787" y="407" key="Github.CreatePullRequestDialog/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579590597878" />
-    <state width="1784" height="295" key="GridCell.Tab.0.bottom" timestamp="1579658301237">
+    <state width="1784" height="295" key="GridCell.Tab.0.bottom" timestamp="1579675307251">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.bottom/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579658301237" />
-    <state width="1784" height="295" key="GridCell.Tab.0.center" timestamp="1579658301237">
+    <state width="1784" height="295" key="GridCell.Tab.0.bottom/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579675307251" />
+    <state width="1784" height="295" key="GridCell.Tab.0.center" timestamp="1579675307251">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.center/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579658301237" />
-    <state width="1784" height="295" key="GridCell.Tab.0.left" timestamp="1579658301237">
+    <state width="1784" height="295" key="GridCell.Tab.0.center/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579675307251" />
+    <state width="1784" height="295" key="GridCell.Tab.0.left" timestamp="1579675307251">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.left/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579658301237" />
-    <state width="1784" height="295" key="GridCell.Tab.0.right" timestamp="1579658301237">
+    <state width="1784" height="295" key="GridCell.Tab.0.left/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579675307251" />
+    <state width="1784" height="295" key="GridCell.Tab.0.right" timestamp="1579675307251">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.right/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579658301237" />
-    <state width="1784" height="364" key="GridCell.Tab.1.bottom" timestamp="1579590746063">
+    <state width="1784" height="295" key="GridCell.Tab.0.right/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579675307251" />
+    <state width="1784" height="364" key="GridCell.Tab.1.bottom" timestamp="1579672252315">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="364" key="GridCell.Tab.1.bottom/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579590746063" />
-    <state width="1784" height="364" key="GridCell.Tab.1.center" timestamp="1579590746063">
+    <state width="1784" height="364" key="GridCell.Tab.1.bottom/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579672252315" />
+    <state width="1784" height="364" key="GridCell.Tab.1.center" timestamp="1579672252315">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="364" key="GridCell.Tab.1.center/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579590746063" />
-    <state width="1784" height="364" key="GridCell.Tab.1.left" timestamp="1579590746063">
+    <state width="1784" height="364" key="GridCell.Tab.1.center/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579672252315" />
+    <state width="1784" height="364" key="GridCell.Tab.1.left" timestamp="1579672252315">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="364" key="GridCell.Tab.1.left/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579590746063" />
-    <state width="1784" height="364" key="GridCell.Tab.1.right" timestamp="1579590746063">
+    <state width="1784" height="364" key="GridCell.Tab.1.left/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579672252315" />
+    <state width="1784" height="364" key="GridCell.Tab.1.right" timestamp="1579672252315">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="364" key="GridCell.Tab.1.right/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579590746063" />
-    <state x="598" y="273" key="Vcs.Push.Dialog.v2" timestamp="1579581901026">
+    <state width="1784" height="364" key="GridCell.Tab.1.right/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579672252315" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1579673473232">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state x="598" y="273" key="Vcs.Push.Dialog.v2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579581901026" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579673473232" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1579673970389">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579673970389" />
+    <state x="598" y="273" key="Vcs.Push.Dialog.v2" timestamp="1579658402352">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="598" y="273" key="Vcs.Push.Dialog.v2/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579658402352" />
+    <state x="885" y="430" width="343" height="236" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579674472378">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="885" y="430" width="343" height="236" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/62.1080.1218.720/93.0.1827.1080@93.0.1827.1080" timestamp="1579674472378" />
     <state x="687" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1579655460690">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>

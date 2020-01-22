@@ -11,12 +11,14 @@ Class-based views
     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+    2. Add a URL to urlpatterns:  path('book/', include('book.urls'))
 """
 from django.urls import path
 
-from blog import views
+from . import views
 
 urlpatterns = [
+    # 同样适用于正则表达式
     path('index/', views.index),
+    path('book/', views.book),
 ]
